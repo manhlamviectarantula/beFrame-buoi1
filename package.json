@@ -11,9 +11,11 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "set ENV=dev && node index.js",
+    "dev": "SET ENV=dev&&node index.js",
     "qc": "set ENV=qc && node index.js",
-    "prod": "set ENV=prod && node index.js"
+    "prod": "set ENV=prod && node index.js",
+    "development": "SET ENV=dev&&node index.js",
+    "production": "SET ENV=prod&&node index.js"
   },
   "keywords": [],
   "author": "",

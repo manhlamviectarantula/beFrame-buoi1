@@ -16,7 +16,7 @@ class ConnectMongo {
         if(env === "dev"){
             connectionString = process.env.CONNECTION_STRING_DATABASE_DEV
         }
-        console.log(connectionString)
+        console.log(connectionString, env)
 
         mongoose.connect(connectionString, {
             useNewUrlParser: true,
